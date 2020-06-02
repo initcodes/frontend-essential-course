@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS常用属性</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .btn {
+      background: #4CAF50;
+      padding: 10px 20px;
+      color: #FFF;
+      text-decoration: none;
+      display: inline-block;
+      border: 2px solid lightcoral;
+      border-radius: 20px;
+    }
+    .btn:hover {
+      background: #46a049;
+    }
+
+    .nav {
+      margin-top: 10px;
+      background: #333;
+      height: 50px;
+    }
+    .nav a {
+      color: #FFF;
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      width: 80px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .nav .active {
+      background: #4CAF50;
+    }
+    .nav a:hover {
+      background: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <a target="_black" class="btn" href="http://baidu.com">在线报名</a>
+
+  <div class="nav">
+    <a class="active" href="http://www.baidu.com">百度</a><a href="http://www.qq.com">腾讯</a><a href="http://www.163.com">网易</a>
+  </div>
+
+</body>
+</html>
