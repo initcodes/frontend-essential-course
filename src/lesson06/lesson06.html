@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS盒模型</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .box-model {
+      border: 10px solid lightcoral;
+      padding: 20px;
+      margin: 20px;
+      background: lightgreen;
+      width: 300px;
+      height: 200px;
+    }
+
+    .feature {
+      width: 255px;
+      height: 166px;
+      border: 1px solid #ebeef0;
+      position: relative;
+      padding: 25px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .feature h5 {
+      font-size: 15px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+    .feature p {
+      color: #888;
+      line-height: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box-model">
+    文本内容
+  </div>
+  <div class="feature">
+    <img src="images/feature-icons/1.png" alt="Cash" class="feat-icon">
+    <h5>MONEY BACK GURANTEE</h5>
+    <p>Great fill signs he evening</p>
+  </div>
+</body>
+</html>
